@@ -192,12 +192,12 @@ body > main {
         -webkit-transition: all 0.2s ease-out;
         -moz-transition: all 0.2s ease-out;
         transition: all 0.2s ease-out;
-        /* box-shadow: 0 0 5px #ccc; */
+        box-shadow: 0 25px 25px #ccc;
         max-height: 1000px;
         overflow: hidden;
       }
         main > section > ul > li:hover {
-          /* box-shadow: 0 0 5px #999; */
+          box-shadow: 0 25px 25px #ccc;
         }
         main > section > ul > li header {}
           main > section > ul > li header img {
