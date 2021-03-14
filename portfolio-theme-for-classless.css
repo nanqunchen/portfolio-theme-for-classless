@@ -114,8 +114,9 @@ body > header {
   body > header > img,
   body > header > a,
   body > header > a > img {
-    /* width: 100%; */
-    width: 80%;
+    width: 100%;
+    /* width: 80%; */
+    max-width: 300px;
   }
 
 body > nav a,
@@ -207,7 +208,8 @@ body > main {
             transition: all 0.2s ease-out;
           }
             main > section > ul > li header img:hover {
-              opacity: 0.4;
+              opacity: 0.9;
+              transform: scale(1.01);
             }
           main > section > ul > li header h1 {
             padding: 15px 20px;
